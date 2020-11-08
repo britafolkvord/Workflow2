@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Re-Cycle" content="A sustainable and environmentally friendly way to experience the Norwegian nature." />
+    <title>About Us | Re-Cycle</title>
+    <link rel="stylesheet" type="text/css" href="css/minified/style.min.css" />
+  </head>
+  <body>
+    <header>
+      <h1>RE-CYCLE</h1>
+    </header>
+
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html" title="home">Home</a></li>
+        <li><a href="about.html" title="about" class="active">About Us</a></li>
+        <li><a href="tours.html" title="tours">Tours</a></li>
+        <li><a href="contact.html" title="contact">Contact</a></li>
+      </ul>
+
+      <select onchange="window.location.href = this.value">
+        <option value="index.html">Home</option>
+        <option value="about.html" selected>About Us</option>
+        <option value="tours.html">Tours</option>
+        <option value="contact.html">Contact</option>
+      </select>
+    </nav>
+    <main>
+      <div class="intro">
+        <div class="info">
+          <h2>About Us</h2>
+          <p>
+            We at Re-Cycle strive to offer the best tours of the Norwegian landscape from the seat of a bike. Our company is run
+            by an environmentally concious gruup of hobby cyclists, who believe that nature is best enjoyed when you can do so
+            whilst preserving it.
+          </p>
+
+          <p class="paragraph">
+            We have tours for everyone, whether you're an active cyclist or more of a couch potato. This wonderful part of Norway
+            offers leisurely routs along the coastline where you can enjoy the wind in your hair and the sun on your face, and
+            more challenging terrain up some of our many peaks and through green forrests. No matter your physical fittness, we
+            can tailor a tour for you that we know you will like, and we will happily guide you on that tour.
+          </p>
+        </div>
+      </div>
+
+      <div class="review-box">
+        <h2 class="info">Read about our customers experiences</h2>
+        <div class="reviews">
+          <div class="box">
+            <img src="img/coastline.jpeg" alt="coastline" class="review-pic" />
+            <p class="text">
+              "Riding a bike through the incredible norwegian landscape is the best way to experience Norway! The views are
+              amazing and you truly get to feel at one with nature. I would highly recommend booking a tour." <br />
+              - Katherine, USA
+            </p>
+          </div>
+
+          <div class="box">
+            <img src="img/pic8.jpeg" alt="hills" class="review-pic" />
+            <p class="text">
+              "Never knew I could enjoy a bike ride so much! As someone who prefers lounging and relaxing on a holiday I never saw
+              myself liking a cycling tour, but I highly recommend it. Norway is a beautiful country, and this has to be the best
+              way to experince it!" <br />
+              - Paulo, Argentina
+            </p>
+          </div>
+
+          <div class="box">
+            <img src="img/mountain.jpeg" alt="mountain" class="review-pic" />
+            <p class="text">
+              "This was amazing! I've been on quite a few bike rides in my life, but nothing compares to this. Truly a once in a
+              life-time experince, unless you're so fortunate to be living in Norway (which I'm now considering)." <br />- James,
+              England
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="footy">Rogaland, Norway <br />+47 415 69 712</p>
+      <p class="footy">© 2019 RE-CYCLE</p>
+      <p class="footy">Contact <br />contact@recycle.com</p>
+    </footer>
+  </body>
+</html>

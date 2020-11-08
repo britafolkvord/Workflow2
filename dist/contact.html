@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Re-Cycle" content="Contact us to book a tour of Norway." />
+    <title>Contact | Re-Cycle</title>
+    <link rel="stylesheet" type="text/css" href="css/minified/style.min.css" />
+  </head>
+  <body>
+    <header>
+      <h1>RE-CYCLE</h1>
+    </header>
+
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html" title="home">Home</a></li>
+        <li><a href="about.html" title="about">About Us</a></li>
+        <li><a href="tours.html" title="tours">Tours</a></li>
+        <li><a href="contact.html" title="contact" class="active">Contact</a></li>
+      </ul>
+
+      <select onchange="window.location.href = this.value">
+        <option value="index.html">Home</option>
+        <option value="about.html">About Us</option>
+        <option value="tours.html">Tours</option>
+        <option value="contact.html" selected>Contact</option>
+      </select>
+    </nav>
+
+    <main>
+      <div class="contact-box" id="contact">
+        <div class="contact-text">
+          <h2>CONTACT</h2>
+          <p>
+            Want to book a tour with us? Or maybe you have some questions about what we can offer? Just fill out the fields below
+            and someone from our team will get back to you within 24 hours.
+          </p>
+        </div>
+        <div class="contact-form">
+          <label for="contact-email">Your Email</label>
+          <input type="text" name="email" id="contact-email" placeholder="Example@email.com" />
+          <span class="error" id="emailError">Please enter a valid email address</span>
+          <label for="contact-input">Your Message</label>
+          <input type="text" name="text" id="contact-input" placeholder="Type your message here" />
+          <span class="error" id="inputError">This field cannot be empty</span>
+        </div>
+        <button type="button" title="Send" id="send">SEND MESSAGE</button>
+      </div>
+    </main>
+
+    <footer>
+      <p class="footy">Rogaland, Norway <br />+47 415 69 712</p>
+      <p class="footy">© 2019 RE-CYCLE</p>
+      <p class="footy">Contact <br />contact@recycle.com</p>
+    </footer>
+    <script src="script/contact.js"></script>
+  </body>
+</html>
